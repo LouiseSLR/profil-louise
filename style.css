@@ -1,0 +1,124 @@
+body {
+   background: #E0F8F9;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #010203;
+  font-size : 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #010203;
+  font-size : 24px;
+  font-weight: 700;
+}
+
+p {
+  color: #010203;
+  font-family: 'Roboto', serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 28px;
+}
+
+a {
+  text-decoration: none;
+  color:  #2e5915;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 1040px;
+  text-align: center;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.4);
+  width: 800px;
+  margin: 12px auto;
+}
+
+.btn-blue {
+  border: solid 1px #8d8f9f;
+  background: #8d8f9f;
+  color: white;
+  padding: 12px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background: #fcf3d1;
+  border:  solid 1px #909cfb;
+  transition: 0.5s;
+}
+
+/* ids */
+
+#profile-picture {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media-list li {
+  display: inline;
+  font-size: 40px;
+
+}
+
+#social-media-list li :hover {
+  color: #8c8f9f;
+  transition: 0.5s;
+}
+
+#my-brother-profile-picture {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#my-parents {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#coding-img-card {
+  background-image: url(images/image.madere.jpg);
+  background-position: center;
+}
+
+#coding-img-card h2 {
+  color: #FFFFFF;
+}
+
+#coding-img-card p {
+  color: #010203;
+  font-weight: bold;
+}
+
+#word-green {
+  color: white;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  background: #7ab990;
+  border-radius: 32px;
+}
